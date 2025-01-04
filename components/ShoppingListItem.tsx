@@ -36,14 +36,14 @@ export function ShoppingListItem({ name, isCompleted }: Props) {
           name={isCompleted ? "check" : "circle"}
           size={24}
           color={isCompleted ? theme.colorGrey : theme.colorCerulean}
-        />{" "}
+        />
         <Text
           style={[
             styles.itemText,
             isCompleted ? styles.completedText : undefined,
           ]}
         >
-          {name}{" "}
+          {name}
         </Text>
       </View>
       <TouchableOpacity hitSlop={20} onPress={handleDelete}>
