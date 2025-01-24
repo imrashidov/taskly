@@ -1,5 +1,6 @@
 import { StyleSheet, View } from "react-native";
 import { ShoppingListItem } from "../components/ShoppingListItem";
+import { Link } from "expo-router";
 
 export default function App() {
   return (
