@@ -20,7 +20,7 @@ export default function Layout() {
         name="counter"
         options={{
           title: "Counter",
-          headerShown: true,
+          headerShown: false,
           tabBarIcon: ({ color, size }) => (
             <AntDesign name="clockcircle" size={size} color={color} />
           ),

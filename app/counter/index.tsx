@@ -1,7 +1,7 @@
 import { View, Text } from "react-native";
 import React from "react";
 
-const counter = () => {
+const index = () => {
   return (
     <View style={{ flex: 1, justifyContent: "center" }}>
       <Text
@@ -16,4 +16,4 @@ const counter = () => {
   );
 };
 
-export default counter;
+export default index;
